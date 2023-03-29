@@ -9,12 +9,12 @@ const Bottom = () => {
             id:1,
             child: (
                 <>
-                     <FaLinkedin style={{backgroundColor : "transparent", color: "rgb(0, 119, 181)"}} size={33} />
+                  <FaLinkedin style={{backgroundColor : "transparent", color: "rgb(0, 119, 181)"}} size={33} />
                 </>
             ),
             href: "https://ng.linkedin.com/in/precious-ebere-838a68263"
         },
-        {
+        {    
             id:2,
             child: (
                 <>
