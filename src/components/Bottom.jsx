@@ -9,7 +9,7 @@ const Bottom = () => {
             id:1,
             child: (
                 <>
-                  <FaLinkedin style={{backgroundColor : "transparent", color: "rgb(0, 119, 181)"}} size={23} />
+                  <FaLinkedin style={{backgroundColor : "transparent", color: "rgb(0, 119, 181)"}} size={22} />
                 </>
             ),
             href: "https://ng.linkedin.com/in/precious-ebere-838a68263"
@@ -18,7 +18,7 @@ const Bottom = () => {
             id:2,
             child: (
                 <>
-                     <FaGithub style={{backgroundColor : "transparent", color: "white"}} size={23} />
+                     <FaGithub style={{backgroundColor : "transparent", color: "white"}} size={22} />
                 </>
             ),
             href: "https://github.com/preshbrown"
@@ -27,7 +27,7 @@ const Bottom = () => {
             id:3,
             child: (
                 <>
-                     <FaTwitter style={{backgroundColor : "transparent", color: "rgb(29, 161, 242)"}} size={23} />
+                     <FaTwitter style={{backgroundColor : "transparent", color: "rgb(29, 161, 242)"}} size={22} />
                 </>
             ),
             href: ""
@@ -36,7 +36,7 @@ const Bottom = () => {
             id:4,
             child: (
                 <>
-                     <HiOutlineMail style={{backgroundColor : "transparent", color: "red"}} size={23} />
+                     <HiOutlineMail style={{backgroundColor : "transparent", color: "red"}} size={22} />
                 </>
             ),
             href: "mailto:preciousebere090@gmail.com"
@@ -45,7 +45,7 @@ const Bottom = () => {
             id:5,
             child: (
                 <>
-                     <FaFacebook style={{backgroundColor : "transparent", color: "rgb(66, 103, 178)"}} size={23} />
+                     <FaFacebook style={{backgroundColor : "transparent", color: "rgb(66, 103, 178)"}} size={22} />
                 </>
             ),
             href: "https://www.facebook.com/precious.brown.98892?mibextid=ZbWKwL"
@@ -54,7 +54,7 @@ const Bottom = () => {
             id:6,
             child: (
                 <>
-                     <BsFillPersonLinesFill style={{ color: "white"}}  size={23} />
+                     <BsFillPersonLinesFill style={{ color: "white"}}  size={22} />
                 </>
             ),
             href: "/resume.pdf",
@@ -70,7 +70,7 @@ const Bottom = () => {
 
           <ul className="flex flex-row h-auto mt-10 lg:hidden">
             {links.map(link => (
-                <li key={link.id} className={"flex justify-between items-center p-0 m-4  "  }>
+                <li key={link.id} className={"flex justify-between items-center p-0 m-3  "  }>
                 <a 
                   href={link.href}
                   className={`flex justify-between items-center w-full `} 
