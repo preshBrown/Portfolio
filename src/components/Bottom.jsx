@@ -9,7 +9,7 @@ const Bottom = () => {
             id:1,
             child: (
                 <>
-                  <FaLinkedin style={{backgroundColor : "transparent", color: "rgb(0, 119, 181)"}} size={25} />
+                  <FaLinkedin style={{backgroundColor : "transparent", color: "rgb(0, 119, 181)"}} size={23} />
                 </>
             ),
             href: "https://ng.linkedin.com/in/precious-ebere-838a68263"
@@ -18,43 +18,43 @@ const Bottom = () => {
             id:2,
             child: (
                 <>
-                     <FaGithub style={{backgroundColor : "transparent", color: "white"}} size={25} />
+                     <FaGithub style={{backgroundColor : "transparent", color: "white"}} size={23} />
                 </>
             ),
             href: "https://github.com/preshbrown"
         },
-        // {
-        //     id:3,
-        //     child: (
-        //         <>
-        //              <FaTwitter style={{backgroundColor : "transparent", color: "rgb(29, 161, 242)"}} size={25} />
-        //         </>
-        //     ),
-        //     href: ""
-        // },
         {
             id:3,
             child: (
                 <>
-                     <HiOutlineMail style={{backgroundColor : "transparent", color: "red"}} size={25} />
+                     <FaTwitter style={{backgroundColor : "transparent", color: "rgb(29, 161, 242)"}} size={23} />
                 </>
             ),
-            href: "mailto:preciousebere090@gmail.com"
+            href: ""
         },
         {
             id:4,
             child: (
                 <>
-                     <FaFacebook style={{backgroundColor : "transparent", color: "rgb(66, 103, 178)"}} size={25} />
+                     <HiOutlineMail style={{backgroundColor : "transparent", color: "red"}} size={23} />
                 </>
             ),
-            href: "https://www.facebook.com/precious.brown.98892?mibextid=ZbWKwL"
+            href: "mailto:preciousebere090@gmail.com"
         },
         {
             id:5,
             child: (
                 <>
-                     <BsFillPersonLinesFill style={{ color: "white"}}  size={25} />
+                     <FaFacebook style={{backgroundColor : "transparent", color: "rgb(66, 103, 178)"}} size={23} />
+                </>
+            ),
+            href: "https://www.facebook.com/precious.brown.98892?mibextid=ZbWKwL"
+        },
+        {
+            id:6,
+            child: (
+                <>
+                     <BsFillPersonLinesFill style={{ color: "white"}}  size={23} />
                 </>
             ),
             href: "/resume.pdf",
@@ -68,9 +68,9 @@ const Bottom = () => {
     <div className="bg-gradient-to-b from-gray-800 to-black w-full h-auto ">
         <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  ">
 
-          <ul className="w-full flex flex-row h-auto mt-10 lg:hidden">
+          <ul className="flex flex-row h-auto mt-10 lg:hidden">
             {links.map(link => (
-                <li key={link.id} className={"flex justify-between items-center p-0 m-5  "  }>
+                <li key={link.id} className={"flex justify-between items-center p-0 m-4  "  }>
                 <a 
                   href={link.href}
                   className={`flex justify-between items-center w-full `} 
