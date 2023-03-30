@@ -6,8 +6,8 @@ import { Link } from "react-scroll";
 const Home = () => {
   return (
     <div name="home"
-       className="mt-20 h-auto w-full bg-gradient-to-b from-black via-black to-gray-800">
-        <div className="pt-30 max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  md:flex-row">
+       className="mt-10 h-auto w-full bg-gradient-to-b from-black via-black to-gray-800">
+        <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4  md:flex-row">
             <div className="flex flex-col justify-center h-full md:w-1/2">
                 <h2 className="text-4xl sm:text-5xl font-bold text-white ">
                     Hey, i'm <span style={{color: "gray"}}>EBERE PRECIOUS DANIEL</span> but you can call me <span style={{color: "gray"}}>PRESH</span>
