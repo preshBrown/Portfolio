@@ -12,9 +12,9 @@ import port from "../assets/portfolio/port.jpg";
 const Portfolio = () => {
 
     const portfolios = [
-        {id:1, src:port},
+        {id:1, src:port, demo:"https://presh-dev-portfolio.netlify.app/", code:"https://github.com/preshBrown/Portfolio"},
         {id:2, src:arrayDestructure},
-        {id:3, src: burger},
+        {id:3, src: burger, demo:"https://presh-dev-burgerger.netlify.app/", code:"https://github.com/preshBrown/Burger-app"},
         {id:4, src: navbar},
         {id:5, src: yelpcamp},
         {id:6, src: reactParallax},
@@ -39,10 +39,16 @@ const Portfolio = () => {
                 <img src={port.src} alt="" />
                 <div className="flex items-center justify-center">
                     <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                    <a 
+                  href={port.demo}>
                         Demo
+                    </a>
                     </button>
                     <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                        <a
+                          href={port.code}>
                         Code
+                        </a>
                     </button>
                 </div>
             </div>
