@@ -14,7 +14,7 @@ const Portfolio = () => {
     const portfolios = [
         {id:1, src:port, demo:"https://presh-dev-portfolio.netlify.app/", code:"https://github.com/preshBrown/Portfolio"},
         {id:2, src:arrayDestructure},
-        {id:3, src: burger, demo:"https://presh-dev-burgerger.netlify.app/", code:"https://github.com/preshBrown/Burger-app"},
+        {id:3, src: burger, demo:"https://presh-dev-burger-app.netlify.app/", code:"https://github.com/preshBrown/Burger-app"},
         {id:4, src: navbar},
         {id:5, src: yelpcamp},
         {id:6, src: reactParallax},
