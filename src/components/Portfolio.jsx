@@ -39,14 +39,13 @@ const Portfolio = () => {
                 <img src={port.src} alt="" />
                 <div className="flex items-center justify-center">
                     <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                  href={port.demo}>
+                       href={port.demo}>
                         Demo
                     </a>
-
-                        <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
-                          href={port.code}>
-                        Code
-                        </a>
+                    <a className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                       href={port.code}>
+                       Code
+                     </a>
                 </div>
             </div>
             
