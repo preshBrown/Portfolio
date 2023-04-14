@@ -20,7 +20,7 @@ const Portfolio = () => {
         {id:6, src: reactParallax},
         {id:7, src: reactSmooth},
         {id:8, src: installNode},
-        {id:9, src: reactWeather},
+        {id:9, src: reactWeather, demo:"https://presh-dev-weather-app.netlify.app/", code:"https://github.com/preshBrown/weather-app"},
     ]
 
 
