@@ -59,7 +59,7 @@ const SocialLinks = () => {
                      Resume<BsFillPersonLinesFill style={{color: "white"}} size={30} />
                 </>
             ),
-            href: "/EberePreciousResume.docx",
+            href: "/EbereResume.pdf",
             style: "rounded-br-md",
             download:true
         },
