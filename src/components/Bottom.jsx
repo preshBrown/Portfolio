@@ -57,7 +57,7 @@ const Bottom = () => {
                      <BsFillPersonLinesFill style={{ color: "white"}}  size={22} />
                 </>
             ),
-            href: "/EberePreciousResume.docx",
+            href: "/EberePreciousDaniel.pdf",
             style: "text-white",
             download:true
         }
