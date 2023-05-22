@@ -44,7 +44,7 @@ const Contact = () => {
 
             <div height="450" className=" w-full">
                 <iframe
-                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15901.9440727165!2d7.037212566636058!3d4.8579063742821464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d27f6a53a3cf%3A0x452406c0166550f2!2sRumudara%20500102%2C%20Port%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1679670195962!5m2!1sen!2sng"
+                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d127223.13155858421!2d6.922393679275922!3d4.817576557321155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069cea39f2c48e3%3A0x53562bdd7d8832db!2sPort%20Harcourt%2C%20Rivers!5e0!3m2!1sen!2sng!4v1684791368477!5m2!1sen!2sng"
                 //    width="600" 
                    height="450" 
                    className="rounded-2xl border-0 w-full" 
@@ -61,5 +61,4 @@ const Contact = () => {
   )
 }
 
-                  
-export default Contact
+export default Contact;

@@ -32,7 +32,7 @@ const SocialLinks = () => {
                      Twitter<FaTwitter style={{color: "rgb(29, 161, 242)"}} size={30} />
                 </>
             ),
-            href: ""
+            href: "twitter.com/E_presh27840?t=MxxOIBw4M7xwDGftGxEFqQ&s=09"
         },
         {
             id:4,
