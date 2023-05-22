@@ -13,7 +13,7 @@ const Home = () => {
                     Hey, i'm <span style={{color: "gray"}}>EBERE PRECIOUS DANIEL</span> but you can call me <span style={{color: "gray"}}>PRESH</span>
                 </h2>
                 <p className="text-xl text-gray-500 py-4 max-w-md">
-                    An eclectic SOFTWARE DEVELOPER(<span style={{color: "yellow"}}>JavaScript</span> & <span style={{color: "skyblue"}}>React</span>), well malleable in techs for building highly interactive, user optimized CLIENT-SIDE and SERVER-SIDE web applications. 
+                    An eclectic SOFTWARE DEVELOPER (<span style={{color: "lightyellow", fontWeight: "bold"}}>JavaScript</span> & <span style={{color: "skyblue", fontWeight: "bold"}}>React</span>), well malleable in techs for building highly interactive, user optimized CLIENT-SIDE and SERVER-SIDE web applications. 
                 </p>
                 <div>
                     <Link to="portfolio"
